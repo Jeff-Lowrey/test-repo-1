@@ -1,0 +1,7 @@
+name: test_workflow
+on: [workflow_call, create]
+jobs:
+  HelloThere:
+    runs-on: all
+    steps:
+      - run: echo "The job was started." 
